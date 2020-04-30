@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: rgb(249, 253, 253)
+}
+body > div {
+    max-width: 1000px;
+    padding-top: 50px;
+}
+.exercise {
+    text-align: left;
+    padding-top: 100px;
+    max-width: 500px;
+}
+.btn {
+    color: #ffffff
+}
+.balloon {
+    font-size: none;
+}
+.exercise {
+    display: none;
+}
+.active {
+    display:block;
+    animation-name: boom;
+    animation-duration: 5s;
+}
+button {
+    background: none;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+ @keyframes boom {
+from {
+    color: #11aa11;
+}
+to {
+    color: #ffffff;
+}
+}
